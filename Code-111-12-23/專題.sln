@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "地圖編輯器", "地圖編輯器\地圖編輯器.csproj", "{62DDA388-A4CB-4B52-88B2-35743980A2DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Android程式", "Android\Android程式.csproj", "{14E4F5ED-42AB-49C4-9A55-05FD312C0B85}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "函式庫", "共同函式庫\函式庫.shproj", "{7573C1A9-D813-4FDF-81FC-133398486249}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		共同函式庫\共同函式庫.projitems*{14e4f5ed-42ab-49c4-9a55-05fd312c0b85}*SharedItemsImports = 4
+		共同函式庫\共同函式庫.projitems*{62dda388-a4cb-4b52-88b2-35743980a2de}*SharedItemsImports = 5
+		共同函式庫\共同函式庫.projitems*{7573c1a9-d813-4fdf-81fc-133398486249}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62DDA388-A4CB-4B52-88B2-35743980A2DE}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{62DDA388-A4CB-4B52-88B2-35743980A2DE}.Debug|Any CPU.Build.0 = Debug|x64
+		{62DDA388-A4CB-4B52-88B2-35743980A2DE}.Debug|x64.ActiveCfg = Debug|x64
+		{62DDA388-A4CB-4B52-88B2-35743980A2DE}.Debug|x64.Build.0 = Debug|x64
+		{62DDA388-A4CB-4B52-88B2-35743980A2DE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DDA388-A4CB-4B52-88B2-35743980A2DE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{62DDA388-A4CB-4B52-88B2-35743980A2DE}.Release|x64.ActiveCfg = Release|x64
+		{62DDA388-A4CB-4B52-88B2-35743980A2DE}.Release|x64.Build.0 = Release|x64
+		{14E4F5ED-42AB-49C4-9A55-05FD312C0B85}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{14E4F5ED-42AB-49C4-9A55-05FD312C0B85}.Debug|Any CPU.Build.0 = Debug|x64
+		{14E4F5ED-42AB-49C4-9A55-05FD312C0B85}.Debug|Any CPU.Deploy.0 = Debug|x64
+		{14E4F5ED-42AB-49C4-9A55-05FD312C0B85}.Debug|x64.ActiveCfg = Debug|x64
+		{14E4F5ED-42AB-49C4-9A55-05FD312C0B85}.Debug|x64.Build.0 = Debug|x64
+		{14E4F5ED-42AB-49C4-9A55-05FD312C0B85}.Debug|x64.Deploy.0 = Debug|x64
+		{14E4F5ED-42AB-49C4-9A55-05FD312C0B85}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E4F5ED-42AB-49C4-9A55-05FD312C0B85}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{14E4F5ED-42AB-49C4-9A55-05FD312C0B85}.Release|Any CPU.Deploy.0 = Debug|Any CPU
+		{14E4F5ED-42AB-49C4-9A55-05FD312C0B85}.Release|x64.ActiveCfg = Release|x64
+		{14E4F5ED-42AB-49C4-9A55-05FD312C0B85}.Release|x64.Build.0 = Release|x64
+		{14E4F5ED-42AB-49C4-9A55-05FD312C0B85}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77472F0F-D356-4738-8D0A-C7ACAC6345FD}
+	EndGlobalSection
+EndGlobal

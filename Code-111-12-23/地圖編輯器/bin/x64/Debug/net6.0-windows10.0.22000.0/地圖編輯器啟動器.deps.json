@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "地圖編輯器啟動器/1.0.0": {
+        "runtime": {
+          "地圖編輯器啟動器.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "地圖編輯器啟動器/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

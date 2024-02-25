@@ -1,0 +1,14 @@
+<resources>
+	<string name="app_name">澎行時空</string>
+	<string name="Button1">↑</string>
+	<string name="Button2">←</string>
+	<string name="Button3">↓</string>
+	<string name="Button4">→</string>
+	<string name="str"></string>
+	<string name="portal">互動</string>
+	<string name="portal1">故事模式</string>
+	<string name="portal2">自由模式</string>
+	<string name="portal3">測試模式</string>
+	<string name="Yes">接受</string>
+	<string name="No">拒絕</string>
+</resources>
