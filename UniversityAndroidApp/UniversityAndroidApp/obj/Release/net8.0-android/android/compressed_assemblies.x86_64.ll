@@ -15,11 +15,11 @@ target triple = "x86_64-unknown-linux-android21"
 }
 
 @compressed_assemblies = dso_local local_unnamed_addr global %struct.CompressedAssemblies {
-	i32 111, ; uint32_t count (0x6f)
+	i32 114, ; uint32_t count (0x72)
 	ptr @compressed_assembly_descriptors; CompressedAssemblyDescriptor* descriptors
 }, align 8
 
-@compressed_assembly_descriptors = internal dso_local global [111 x %struct.CompressedAssemblyDescriptor] [
+@compressed_assembly_descriptors = internal dso_local global [114 x %struct.CompressedAssemblyDescriptor] [
 	%struct.CompressedAssemblyDescriptor {
 		i32 15872, ; uint32_t uncompressed_file_size (0x3e00)
 		i8 0, ; bool loaded
@@ -441,37 +441,37 @@ target triple = "x86_64-unknown-linux-android21"
 		ptr @__compressedAssemblyData_83; uint8_t* data (0x0)
 	}, ; 83
 	%struct.CompressedAssemblyDescriptor {
-		i32 4096, ; uint32_t uncompressed_file_size (0x1000)
+		i32 20480, ; uint32_t uncompressed_file_size (0x5000)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_84; uint8_t* data (0x0)
 	}, ; 84
 	%struct.CompressedAssemblyDescriptor {
-		i32 20480, ; uint32_t uncompressed_file_size (0x5000)
+		i32 34816, ; uint32_t uncompressed_file_size (0x8800)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_85; uint8_t* data (0x0)
 	}, ; 85
 	%struct.CompressedAssemblyDescriptor {
-		i32 34816, ; uint32_t uncompressed_file_size (0x8800)
+		i32 102400, ; uint32_t uncompressed_file_size (0x19000)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_86; uint8_t* data (0x0)
 	}, ; 86
 	%struct.CompressedAssemblyDescriptor {
-		i32 102400, ; uint32_t uncompressed_file_size (0x19000)
+		i32 1870336, ; uint32_t uncompressed_file_size (0x1c8a00)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_87; uint8_t* data (0x0)
 	}, ; 87
 	%struct.CompressedAssemblyDescriptor {
-		i32 1870336, ; uint32_t uncompressed_file_size (0x1c8a00)
+		i32 62464, ; uint32_t uncompressed_file_size (0xf400)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_88; uint8_t* data (0x0)
 	}, ; 88
 	%struct.CompressedAssemblyDescriptor {
-		i32 62464, ; uint32_t uncompressed_file_size (0xf400)
+		i32 300032, ; uint32_t uncompressed_file_size (0x49400)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_89; uint8_t* data (0x0)
 	}, ; 89
 	%struct.CompressedAssemblyDescriptor {
-		i32 300032, ; uint32_t uncompressed_file_size (0x49400)
+		i32 4096, ; uint32_t uncompressed_file_size (0x1000)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_90; uint8_t* data (0x0)
 	}, ; 90
@@ -506,75 +506,90 @@ target triple = "x86_64-unknown-linux-android21"
 		ptr @__compressedAssemblyData_96; uint8_t* data (0x0)
 	}, ; 96
 	%struct.CompressedAssemblyDescriptor {
-		i32 9728, ; uint32_t uncompressed_file_size (0x2600)
+		i32 4096, ; uint32_t uncompressed_file_size (0x1000)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_97; uint8_t* data (0x0)
 	}, ; 97
 	%struct.CompressedAssemblyDescriptor {
-		i32 13312, ; uint32_t uncompressed_file_size (0x3400)
+		i32 9728, ; uint32_t uncompressed_file_size (0x2600)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_98; uint8_t* data (0x0)
 	}, ; 98
 	%struct.CompressedAssemblyDescriptor {
-		i32 20480, ; uint32_t uncompressed_file_size (0x5000)
+		i32 13312, ; uint32_t uncompressed_file_size (0x3400)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_99; uint8_t* data (0x0)
 	}, ; 99
 	%struct.CompressedAssemblyDescriptor {
-		i32 34304, ; uint32_t uncompressed_file_size (0x8600)
+		i32 20480, ; uint32_t uncompressed_file_size (0x5000)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_100; uint8_t* data (0x0)
 	}, ; 100
 	%struct.CompressedAssemblyDescriptor {
-		i32 102400, ; uint32_t uncompressed_file_size (0x19000)
+		i32 34304, ; uint32_t uncompressed_file_size (0x8600)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_101; uint8_t* data (0x0)
 	}, ; 101
 	%struct.CompressedAssemblyDescriptor {
-		i32 1856512, ; uint32_t uncompressed_file_size (0x1c5400)
+		i32 102400, ; uint32_t uncompressed_file_size (0x19000)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_102; uint8_t* data (0x0)
 	}, ; 102
 	%struct.CompressedAssemblyDescriptor {
-		i32 62464, ; uint32_t uncompressed_file_size (0xf400)
+		i32 1856512, ; uint32_t uncompressed_file_size (0x1c5400)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_103; uint8_t* data (0x0)
 	}, ; 103
 	%struct.CompressedAssemblyDescriptor {
-		i32 300032, ; uint32_t uncompressed_file_size (0x49400)
+		i32 62464, ; uint32_t uncompressed_file_size (0xf400)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_104; uint8_t* data (0x0)
 	}, ; 104
 	%struct.CompressedAssemblyDescriptor {
-		i32 20480, ; uint32_t uncompressed_file_size (0x5000)
+		i32 300032, ; uint32_t uncompressed_file_size (0x49400)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_105; uint8_t* data (0x0)
 	}, ; 105
 	%struct.CompressedAssemblyDescriptor {
-		i32 35328, ; uint32_t uncompressed_file_size (0x8a00)
+		i32 4096, ; uint32_t uncompressed_file_size (0x1000)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_106; uint8_t* data (0x0)
 	}, ; 106
 	%struct.CompressedAssemblyDescriptor {
-		i32 102400, ; uint32_t uncompressed_file_size (0x19000)
+		i32 20480, ; uint32_t uncompressed_file_size (0x5000)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_107; uint8_t* data (0x0)
 	}, ; 107
 	%struct.CompressedAssemblyDescriptor {
-		i32 1918464, ; uint32_t uncompressed_file_size (0x1d4600)
+		i32 35328, ; uint32_t uncompressed_file_size (0x8a00)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_108; uint8_t* data (0x0)
 	}, ; 108
 	%struct.CompressedAssemblyDescriptor {
-		i32 62464, ; uint32_t uncompressed_file_size (0xf400)
+		i32 102400, ; uint32_t uncompressed_file_size (0x19000)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_109; uint8_t* data (0x0)
 	}, ; 109
 	%struct.CompressedAssemblyDescriptor {
-		i32 300032, ; uint32_t uncompressed_file_size (0x49400)
+		i32 1918464, ; uint32_t uncompressed_file_size (0x1d4600)
 		i8 0, ; bool loaded
 		ptr @__compressedAssemblyData_110; uint8_t* data (0x0)
-	} ; 110
+	}, ; 110
+	%struct.CompressedAssemblyDescriptor {
+		i32 62464, ; uint32_t uncompressed_file_size (0xf400)
+		i8 0, ; bool loaded
+		ptr @__compressedAssemblyData_111; uint8_t* data (0x0)
+	}, ; 111
+	%struct.CompressedAssemblyDescriptor {
+		i32 300032, ; uint32_t uncompressed_file_size (0x49400)
+		i8 0, ; bool loaded
+		ptr @__compressedAssemblyData_112; uint8_t* data (0x0)
+	}, ; 112
+	%struct.CompressedAssemblyDescriptor {
+		i32 4096, ; uint32_t uncompressed_file_size (0x1000)
+		i8 0, ; bool loaded
+		ptr @__compressedAssemblyData_113; uint8_t* data (0x0)
+	} ; 113
 ], align 16
 
 @__compressedAssemblyData_0 = internal dso_local global [15872 x i8] zeroinitializer, align 16
@@ -661,33 +676,36 @@ target triple = "x86_64-unknown-linux-android21"
 @__compressedAssemblyData_81 = internal dso_local global [223232 x i8] zeroinitializer, align 16
 @__compressedAssemblyData_82 = internal dso_local global [18432 x i8] zeroinitializer, align 16
 @__compressedAssemblyData_83 = internal dso_local global [14336 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_84 = internal dso_local global [4096 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_85 = internal dso_local global [20480 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_86 = internal dso_local global [34816 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_87 = internal dso_local global [102400 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_88 = internal dso_local global [1870336 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_89 = internal dso_local global [62464 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_90 = internal dso_local global [300032 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_84 = internal dso_local global [20480 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_85 = internal dso_local global [34816 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_86 = internal dso_local global [102400 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_87 = internal dso_local global [1870336 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_88 = internal dso_local global [62464 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_89 = internal dso_local global [300032 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_90 = internal dso_local global [4096 x i8] zeroinitializer, align 16
 @__compressedAssemblyData_91 = internal dso_local global [20480 x i8] zeroinitializer, align 16
 @__compressedAssemblyData_92 = internal dso_local global [34304 x i8] zeroinitializer, align 16
 @__compressedAssemblyData_93 = internal dso_local global [102400 x i8] zeroinitializer, align 16
 @__compressedAssemblyData_94 = internal dso_local global [1856512 x i8] zeroinitializer, align 16
 @__compressedAssemblyData_95 = internal dso_local global [62464 x i8] zeroinitializer, align 16
 @__compressedAssemblyData_96 = internal dso_local global [300032 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_97 = internal dso_local global [9728 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_98 = internal dso_local global [13312 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_99 = internal dso_local global [20480 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_100 = internal dso_local global [34304 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_101 = internal dso_local global [102400 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_102 = internal dso_local global [1856512 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_103 = internal dso_local global [62464 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_104 = internal dso_local global [300032 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_105 = internal dso_local global [20480 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_106 = internal dso_local global [35328 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_107 = internal dso_local global [102400 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_108 = internal dso_local global [1918464 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_109 = internal dso_local global [62464 x i8] zeroinitializer, align 16
-@__compressedAssemblyData_110 = internal dso_local global [300032 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_97 = internal dso_local global [4096 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_98 = internal dso_local global [9728 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_99 = internal dso_local global [13312 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_100 = internal dso_local global [20480 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_101 = internal dso_local global [34304 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_102 = internal dso_local global [102400 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_103 = internal dso_local global [1856512 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_104 = internal dso_local global [62464 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_105 = internal dso_local global [300032 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_106 = internal dso_local global [4096 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_107 = internal dso_local global [20480 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_108 = internal dso_local global [35328 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_109 = internal dso_local global [102400 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_110 = internal dso_local global [1918464 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_111 = internal dso_local global [62464 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_112 = internal dso_local global [300032 x i8] zeroinitializer, align 16
+@__compressedAssemblyData_113 = internal dso_local global [4096 x i8] zeroinitializer, align 16
 
 ; Metadata
 !llvm.module.flags = !{!0, !1}

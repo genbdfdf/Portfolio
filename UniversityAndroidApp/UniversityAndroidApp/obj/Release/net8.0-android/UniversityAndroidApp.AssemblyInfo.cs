@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniversityAndroidApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9b2789af22159c9b98027203043283ae7e2ae21a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7c8610c83f38a80d0b1e732cdf4479ac1fe48678")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniversityAndroidApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniversityAndroidApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

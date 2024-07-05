@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "D:\\Portfolio\\UniversityAndroidApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|D:\\Portfolio\\UniversityAndroidApp\\universityandroidapp\\universityandroidapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|solutionrelative:universityandroidapp\\universityandroidapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|d:\\portfolio\\universityandroidapp\\universityandroidapp\\universityandroidapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|solutionrelative:universityandroidapp\\universityandroidapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|d:\\portfolio\\universityandroidapp\\universityandroidapp\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|solutionrelative:universityandroidapp\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,24 +14,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UniversityAndroidApp",
-              "DocumentMoniker": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
-              "RelativeDocumentMoniker": "UniversityAndroidApp\\UniversityAndroidApp.csproj",
-              "ToolTip": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
-              "RelativeToolTip": "UniversityAndroidApp\\UniversityAndroidApp.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-05T16:30:54.7Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{228e1580-0ef9-329a-bf07-81ebc3dcbf7e}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\MainActivity.cs",
               "RelativeDocumentMoniker": "UniversityAndroidApp\\MainActivity.cs",
@@ -48,18 +31,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T15:27:57.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UniversityAndroidApp",
-              "DocumentMoniker": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
-              "RelativeDocumentMoniker": "UniversityAndroidApp\\UniversityAndroidApp.csproj",
-              "ToolTip": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
-              "RelativeToolTip": "UniversityAndroidApp\\UniversityAndroidApp.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-05T15:11:25.833Z",
               "EditorCaption": ""
             }
           ]
