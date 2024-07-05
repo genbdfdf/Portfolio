@@ -1,10 +1,1 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
-  <item name="textview2" type="id" />
-  <item name="textview3" type="id" />
-  <item name="textview4" type="id" />
-  <item name="up" type="id" />
-  <item name="down" type="id" />
-  <item name="left" type="id" />
-  <item name="right" type="id" />
-</resources>
+<resources><item name="textview2" type="id" /><item name="textview3" type="id" /><item name="textview4" type="id" /><item name="up" type="id" /><item name="down" type="id" /><item name="left" type="id" /><item name="right" type="id" /></resources>
