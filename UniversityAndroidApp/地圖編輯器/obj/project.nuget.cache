@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XRHU+EKTGls7UNb2YMrcLAYCBy1xqI5HwiLsQoP7ejFG4PrW8kIv5Z2ktnjpe9udB4WEYqk0SRHzYyeE+3Ss8Q==",
+  "dgSpecHash": "U5B3sagDwehRAUybhh8uAJ1+jyvtY3o10xbwK5gR9WWb7RZNHE451Gz5g5opsue5EwyE2vjS7l6LdXvRozFk0w==",
   "success": true,
-  "projectFilePath": "D:\\程式\\專題\\UniversityAndroidApp\\地圖編輯器\\地圖編輯器.csproj",
+  "projectFilePath": "D:\\Portfolio\\UniversityAndroidApp\\地圖編輯器\\地圖編輯器.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yy123\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\yy123\\.nuget\\packages\\microsoft.data.sqlite\\8.0.3\\microsoft.data.sqlite.8.0.3.nupkg.sha512",
@@ -90,8 +90,12 @@
     "C:\\Users\\yy123\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\yy123\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\yy123\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\yy123\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.26\\microsoft.netcore.app.crossgen2.win-x64.6.0.26.nupkg.sha512",
-    "C:\\Users\\yy123\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22000.31\\microsoft.windows.sdk.net.ref.10.0.22000.31.nupkg.sha512"
+    "C:\\Users\\yy123\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.29\\microsoft.netcore.app.crossgen2.win-x64.6.0.29.nupkg.sha512",
+    "C:\\Users\\yy123\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22000.31\\microsoft.windows.sdk.net.ref.10.0.22000.31.nupkg.sha512",
+    "C:\\Users\\yy123\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\yy123\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\yy123\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\yy123\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
   ],
   "logs": [
     {

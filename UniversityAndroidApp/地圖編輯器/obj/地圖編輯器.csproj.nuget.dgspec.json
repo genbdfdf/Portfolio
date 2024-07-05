@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\程式\\專題\\UniversityAndroidApp\\地圖編輯器\\地圖編輯器.csproj": {}
+    "D:\\Portfolio\\UniversityAndroidApp\\地圖編輯器\\地圖編輯器.csproj": {}
   },
   "projects": {
-    "D:\\程式\\專題\\UniversityAndroidApp\\地圖編輯器\\地圖編輯器.csproj": {
+    "D:\\Portfolio\\UniversityAndroidApp\\地圖編輯器\\地圖編輯器.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\程式\\專題\\UniversityAndroidApp\\地圖編輯器\\地圖編輯器.csproj",
+        "projectUniqueName": "D:\\Portfolio\\UniversityAndroidApp\\地圖編輯器\\地圖編輯器.csproj",
         "projectName": "地圖編輯器",
-        "projectPath": "D:\\程式\\專題\\UniversityAndroidApp\\地圖編輯器\\地圖編輯器.csproj",
+        "projectPath": "D:\\Portfolio\\UniversityAndroidApp\\地圖編輯器\\地圖編輯器.csproj",
         "packagesPath": "C:\\Users\\yy123\\.nuget\\packages\\",
-        "outputPath": "D:\\程式\\專題\\UniversityAndroidApp\\地圖編輯器\\obj\\",
+        "outputPath": "D:\\Portfolio\\UniversityAndroidApp\\地圖編輯器\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -91,12 +96,28 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
-              "version": "[6.0.26, 6.0.26]"
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
               "version": "[10.0.22000.31, 10.0.22000.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
             }
           ],
           "frameworkReferences": {
@@ -110,7 +131,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

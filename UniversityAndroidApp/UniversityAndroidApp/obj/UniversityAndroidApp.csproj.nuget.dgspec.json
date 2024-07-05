@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\程式\\專題\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj": {}
+    "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj": {}
   },
   "projects": {
-    "D:\\程式\\專題\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj": {
+    "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\程式\\專題\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
+        "projectUniqueName": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
         "projectName": "UniversityAndroidApp",
-        "projectPath": "D:\\程式\\專題\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
+        "projectPath": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
         "packagesPath": "C:\\Users\\yy123\\.nuget\\packages\\",
-        "outputPath": "D:\\程式\\專題\\UniversityAndroidApp\\UniversityAndroidApp\\obj\\",
+        "outputPath": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -52,7 +57,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )",
+              "version": "[8.0.4, )",
               "autoReferenced": true
             },
             "Xamarin.AndroidX.Browser": {
@@ -95,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

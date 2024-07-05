@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EUNohZU37eRzRXsn4AEFkvj5TSP0A//m9oBQRP8XpNP+pUBpbGYwIYXMbniHJE9ctljZpUbuklrLDEh/IymsMg==",
+  "dgSpecHash": "9DvBgcLfL7NVoI8a6fQy7rh4xSaanB5fZzPNs67NZpfYFLghmt7b1B69DmRRg3ofEIYSE6bIGPpkHIhrmVR2Qg==",
   "success": true,
-  "projectFilePath": "D:\\程式\\專題\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
+  "projectFilePath": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yy123\\.nuget\\packages\\documentformat.openxml\\3.0.2\\documentformat.openxml.3.0.2.nupkg.sha512",
     "C:\\Users\\yy123\\.nuget\\packages\\documentformat.openxml.framework\\3.0.2\\documentformat.openxml.framework.3.0.2.nupkg.sha512",
-    "C:\\Users\\yy123\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.1\\microsoft.net.illink.tasks.8.0.1.nupkg.sha512",
+    "C:\\Users\\yy123\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.4\\microsoft.net.illink.tasks.8.0.4.nupkg.sha512",
     "C:\\Users\\yy123\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\yy123\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\yy123\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
