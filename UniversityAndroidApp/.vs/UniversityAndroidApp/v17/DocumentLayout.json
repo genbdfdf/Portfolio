@@ -11,8 +11,36 @@
       "RelativeMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|solutionrelative:universityandroidapp\\universityandroidapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|d:\\portfolio\\universityandroidapp\\universityandroidapp\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|d:\\portfolio\\universityandroidapp\\universityandroidapp\\src\\activity\\titleactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|solutionrelative:universityandroidapp\\src\\activity\\titleactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|d:\\portfolio\\universityandroidapp\\universityandroidapp\\src\\lib\\baseactivitycore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|solutionrelative:universityandroidapp\\src\\lib\\baseactivitycore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0F1914C-8917-4F67-B3EA-D1087C5955CE}|\u5730\u5716\u7DE8\u8F2F\u5668\\\u5730\u5716\u7DE8\u8F2F\u5668.csproj|d:\\portfolio\\universityandroidapp\\\u5730\u5716\u7DE8\u8F2F\u5668\\\u5730\u5716\u7DE8\u8F2F\u5668.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C0F1914C-8917-4F67-B3EA-D1087C5955CE}|\u5730\u5716\u7DE8\u8F2F\u5668\\\u5730\u5716\u7DE8\u8F2F\u5668.csproj|solutionrelative:\u5730\u5716\u7DE8\u8F2F\u5668\\\u5730\u5716\u7DE8\u8F2F\u5668.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|d:\\portfolio\\universityandroidapp\\universityandroidapp\\src\\lib\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|solutionrelative:universityandroidapp\\src\\lib\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|d:\\portfolio\\universityandroidapp\\universityandroidapp\\src\\net\\network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|solutionrelative:universityandroidapp\\src\\net\\network.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|D:\\Portfolio\\UniversityAndroidApp\\universityandroidapp\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|solutionrelative:universityandroidapp\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|d:\\portfolio\\universityandroidapp\\universityandroidapp\\src\\activity\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|solutionrelative:universityandroidapp\\src\\activity\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|d:\\portfolio\\universityandroidapp\\universityandroidapp\\resources\\values\\strings.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6A6F5492-FD85-4F60-BF2C-9B1204974045}|UniversityAndroidApp\\UniversityAndroidApp.csproj|solutionrelative:universityandroidapp\\resources\\values\\strings.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UniversityAndroidApp",
-              "DocumentMoniker": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
-              "RelativeDocumentMoniker": "UniversityAndroidApp\\UniversityAndroidApp.csproj",
-              "ToolTip": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj*",
-              "RelativeToolTip": "UniversityAndroidApp\\UniversityAndroidApp.csproj*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-05T17:01:05.632Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -46,7 +61,7 @@
               "ToolTip": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
               "RelativeToolTip": "UniversityAndroidApp\\UniversityAndroidApp.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-05T17:00:38.706Z",
+              "WhenOpened": "2024-07-06T07:44:12.538Z",
               "EditorCaption": ""
             },
             {
@@ -55,13 +70,117 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "\u5730\u5716\u7DE8\u8F2F\u5668",
+              "DocumentMoniker": "D:\\Portfolio\\UniversityAndroidApp\\\u5730\u5716\u7DE8\u8F2F\u5668\\\u5730\u5716\u7DE8\u8F2F\u5668.csproj",
+              "RelativeDocumentMoniker": "\u5730\u5716\u7DE8\u8F2F\u5668\\\u5730\u5716\u7DE8\u8F2F\u5668.csproj",
+              "ToolTip": "D:\\Portfolio\\UniversityAndroidApp\\\u5730\u5716\u7DE8\u8F2F\u5668\\\u5730\u5716\u7DE8\u8F2F\u5668.csproj",
+              "RelativeToolTip": "\u5730\u5716\u7DE8\u8F2F\u5668\\\u5730\u5716\u7DE8\u8F2F\u5668.csproj",
+              "ViewState": "AQIAACUAAAAAAAAAAAAjwDEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-06T07:22:44.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\src\\lib\\DataBase.cs",
+              "RelativeDocumentMoniker": "UniversityAndroidApp\\src\\lib\\DataBase.cs",
+              "ToolTip": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\src\\lib\\DataBase.cs",
+              "RelativeToolTip": "UniversityAndroidApp\\src\\lib\\DataBase.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAkwDAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:56:56.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Network.cs",
+              "DocumentMoniker": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\src\\Net\\Network.cs",
+              "RelativeDocumentMoniker": "UniversityAndroidApp\\src\\Net\\Network.cs",
+              "ToolTip": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\src\\Net\\Network.cs",
+              "RelativeToolTip": "UniversityAndroidApp\\src\\Net\\Network.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:56:38.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TitleActivity.cs",
+              "DocumentMoniker": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\src\\Activity\\TitleActivity.cs",
+              "RelativeDocumentMoniker": "UniversityAndroidApp\\src\\Activity\\TitleActivity.cs",
+              "ToolTip": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\src\\Activity\\TitleActivity.cs",
+              "RelativeToolTip": "UniversityAndroidApp\\src\\Activity\\TitleActivity.cs",
+              "ViewState": "AQIAAL4AAAAAAAAAAAAywMUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:55:04.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UniversityAndroidApp",
+              "DocumentMoniker": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
+              "RelativeDocumentMoniker": "UniversityAndroidApp\\UniversityAndroidApp.csproj",
+              "ToolTip": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
+              "RelativeToolTip": "UniversityAndroidApp\\UniversityAndroidApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-06T07:30:58.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseActivityCore.cs",
+              "DocumentMoniker": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\src\\lib\\BaseActivityCore.cs",
+              "RelativeDocumentMoniker": "UniversityAndroidApp\\src\\lib\\BaseActivityCore.cs",
+              "ToolTip": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\src\\lib\\BaseActivityCore.cs",
+              "RelativeToolTip": "UniversityAndroidApp\\src\\lib\\BaseActivityCore.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAUwEQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T07:10:08.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "strings.xml",
+              "DocumentMoniker": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\Resources\\values\\strings.xml",
+              "RelativeDocumentMoniker": "UniversityAndroidApp\\Resources\\values\\strings.xml",
+              "ToolTip": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\Resources\\values\\strings.xml",
+              "RelativeToolTip": "UniversityAndroidApp\\Resources\\values\\strings.xml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-07-06T06:54:18.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Base.cs",
+              "DocumentMoniker": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\src\\Activity\\Base.cs",
+              "RelativeDocumentMoniker": "UniversityAndroidApp\\src\\Activity\\Base.cs",
+              "ToolTip": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\src\\Activity\\Base.cs",
+              "RelativeToolTip": "UniversityAndroidApp\\src\\Activity\\Base.cs",
+              "ViewState": "AQIAAKYBAAAAAAAAAAD4v70BAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T06:53:27.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\MainActivity.cs",
               "RelativeDocumentMoniker": "UniversityAndroidApp\\MainActivity.cs",
               "ToolTip": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\MainActivity.cs",
               "RelativeToolTip": "UniversityAndroidApp\\MainActivity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T15:27:57.584Z",
               "EditorCaption": ""

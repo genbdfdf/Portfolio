@@ -196,11 +196,11 @@ namespace PenghuSpace.Activity
             SetButtonFunction(_width / 4 * 3 - px2dpi(textView.Context, 24 * 4), 400, Resource.String.portal2);
             _portal1 = button;
 
-            button = new Button(this); //測試模式
-            SetButtonFunction(_width / 4 * 2 - px2dpi(textView.Context, 24 * 2), 600, Resource.String.portal3);
-            button.SetX(_width + 2);
-            textView.SetX(_width + 2);
-            _portal2 = button;
+            //button = new Button(this); //測試模式
+            //SetButtonFunction(_width / 4 * 2 - px2dpi(textView.Context, 24 * 2), 600, Resource.String.portal3);
+            //button.SetX(_width + 2);
+            //textView.SetX(_width + 2);
+            //_portal2 = button;
 
             void SetButtonFunction(float x, float y, int text)
             {

@@ -66,10 +66,10 @@ namespace PenghuSpace.lib
         #region 初始化資料庫資料
 
         private void InitDBData()
-        {
+        { 
             Task sk = Task.Run(() =>
             {
-                using (var cn = new SQLiteConnection(mapDB))
+                           using (var cn = new SQLiteConnection(mapDB))
                 {
                     string pictureQuery = "SELECT [pId], [binData] FROM [Picture]";
                     var pic = cn.Query<Picture>(pictureQuery);

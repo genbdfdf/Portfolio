@@ -2,7 +2,6 @@ obj\Release\net8.0-android\android-arm64\aot\_Microsoft.Android.Resource.Designe
 obj\Release\net8.0-android\android-arm64\aot\UniversityAndroidApp.dll.so
 obj\Release\net8.0-android\android-arm64\aot\SQLite-net.dll.so
 obj\Release\net8.0-android\android-arm64\aot\SQLitePCLRaw.batteries_v2.dll.so
-obj\Release\net8.0-android\android-arm64\aot\SQLitePCLRaw.nativelibrary.dll.so
 obj\Release\net8.0-android\android-arm64\aot\SQLitePCLRaw.core.dll.so
 obj\Release\net8.0-android\android-arm64\aot\SQLitePCLRaw.lib.e_sqlite3.android.dll.so
 obj\Release\net8.0-android\android-arm64\aot\SQLitePCLRaw.provider.e_sqlite3.dll.so
@@ -71,6 +70,7 @@ obj\Release\net8.0-android\android-arm64\aot\System.Private.DataContractSerializ
 obj\Release\net8.0-android\android-arm64\aot\System.Private.Uri.dll.so
 obj\Release\net8.0-android\android-arm64\aot\System.Private.Xml.Linq.dll.so
 obj\Release\net8.0-android\android-arm64\aot\System.Private.Xml.dll.so
+obj\Release\net8.0-android\android-arm64\aot\System.Runtime.InteropServices.RuntimeInformation.dll.so
 obj\Release\net8.0-android\android-arm64\aot\System.Runtime.InteropServices.dll.so
 obj\Release\net8.0-android\android-arm64\aot\System.Runtime.Numerics.dll.so
 obj\Release\net8.0-android\android-arm64\aot\System.Runtime.Serialization.Formatters.dll.so
