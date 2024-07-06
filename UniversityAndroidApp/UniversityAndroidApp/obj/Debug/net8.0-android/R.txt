@@ -2820,9 +2820,6 @@ int mipmap appicon 0x7f0c0000
 int mipmap appicon_background 0x7f0c0001
 int mipmap appicon_foreground 0x7f0c0002
 int mipmap appicon_round 0x7f0c0003
-int mipmap ic_launcher 0x7f0c0004
-int mipmap ic_launcher_adaptive_back 0x7f0c0005
-int mipmap ic_launcher_adaptive_fore 0x7f0c0006
 int plurals mtrl_badge_content_description 0x7f0d0000
 int string Button1 0x7f0e0000
 int string Button2 0x7f0e0001

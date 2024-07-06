@@ -1,4 +1,5 @@
 ﻿#region using
+using Android.Content.Res;
 using Android.Graphics;
 using SQLite;
 using System;
@@ -35,14 +36,14 @@ namespace PenghuSpace.lib
 
         #region 建構式暨初始化
 
-        public BaseActivityCore()
+        public BaseActivityCore(AssetManager assetManager)
         {
-            _initSk = Task.Run(() => Init());
+            _initSk = Task.Run(() => Init(assetManager));
         }
 
-        private void Init()
+        private void Init(AssetManager assetManager)
         {
-            InitDB();
+            InitDB(assetManager);
             InitDBData();
         }
 
@@ -54,9 +55,9 @@ namespace PenghuSpace.lib
 
         #region 初始化資料庫
 
-        private void InitDB()
+        private void InitDB(AssetManager assetManager)
         {
-            var dataBase = new DataBase();
+            var dataBase = new DataBase(assetManager);
             mapDB = dataBase.mapDB;
             drawableDB = dataBase.drawableDB;
         }

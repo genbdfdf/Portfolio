@@ -1,7 +1,6 @@
 @string/appbar_scrolling_view_behavior;D:\Portfolio\UniversityAndroidApp\UniversityAndroidApp\obj\Release\net8.0-android\lp\64\jl\res\layout\rootlayout.xml
 adaptive-icon;obj\Release\net8.0-android\res\mipmap-anydpi-v26\appicon.xml
 adaptive-icon;obj\Release\net8.0-android\res\mipmap-anydpi-v26\appicon_round.xml
-adaptive-icon;obj\Release\net8.0-android\res\mipmap-anydpi-v26\ic_launcher.xml
 alpha;D:\Portfolio\UniversityAndroidApp\UniversityAndroidApp\obj\Release\net8.0-android\lp\64\jl\res\anim\enterfromleft.xml
 alpha;D:\Portfolio\UniversityAndroidApp\UniversityAndroidApp\obj\Release\net8.0-android\lp\64\jl\res\anim\exittoleft.xml
 androidx.appcompat.widget.Toolbar;D:\Portfolio\UniversityAndroidApp\UniversityAndroidApp\obj\Release\net8.0-android\lp\64\jl\res\layout\fallbacktoolbardonotuse.xml
@@ -16,7 +15,6 @@ attr;D:\Portfolio\UniversityAndroidApp\UniversityAndroidApp\obj\Release\net8.0-a
 attr;obj\Release\net8.0-android\res\values\attrs.xml
 background;obj\Release\net8.0-android\res\mipmap-anydpi-v26\appicon.xml
 background;obj\Release\net8.0-android\res\mipmap-anydpi-v26\appicon_round.xml
-background;obj\Release\net8.0-android\res\mipmap-anydpi-v26\ic_launcher.xml
 cache-path;D:\Portfolio\UniversityAndroidApp\UniversityAndroidApp\obj\Release\net8.0-android\lp\63\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Release\net8.0-android\res\values\colors.xml
 color;obj\Release\net8.0-android\res\values\ic_launcher_background.xml
@@ -33,7 +31,6 @@ external-cache-path;D:\Portfolio\UniversityAndroidApp\UniversityAndroidApp\obj\R
 external-path;D:\Portfolio\UniversityAndroidApp\UniversityAndroidApp\obj\Release\net8.0-android\lp\63\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Release\net8.0-android\res\mipmap-anydpi-v26\appicon.xml
 foreground;obj\Release\net8.0-android\res\mipmap-anydpi-v26\appicon_round.xml
-foreground;obj\Release\net8.0-android\res\mipmap-anydpi-v26\ic_launcher.xml
 FrameLayout;D:\Portfolio\UniversityAndroidApp\UniversityAndroidApp\obj\Release\net8.0-android\lp\64\jl\res\layout\bottomtablayout.xml
 ImageView;obj\Release\net8.0-android\res\layout\bulletin.xml
 ImageView;obj\Release\net8.0-android\res\layout\item.xml

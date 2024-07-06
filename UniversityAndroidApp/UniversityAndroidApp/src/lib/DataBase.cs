@@ -1,4 +1,5 @@
 ﻿#region using
+using Android.Content.Res;
 using System;
 using System.IO;
 using System.Net;
@@ -15,12 +16,12 @@ namespace PenghuSpace.lib
 
         public string drawableDB { get; private set; }
 
-        public DataBase()
+        public DataBase(AssetManager assetManager)
         {
-            Init();
+            Init(assetManager);
         }
 
-        private void Init()
+        private void Init(AssetManager assets)
         {
             mapDB = Path.Combine(FileSystem.AppDataDirectory, "map.db");
             drawableDB = Path.Combine(FileSystem.AppDataDirectory, "drawable.db");
@@ -28,62 +29,68 @@ namespace PenghuSpace.lib
             string drawableDBHash = Path.Combine(FileSystem.AppDataDirectory, "drawable.db.hash");
             string hash = "";
             string remoteHash = "";
-            if (File.Exists(mapDBHash))
-            {
-                hash = LoadDBHash(mapDBHash);
-                remoteHash = GetDBHashAndLoad("https://www.dropbox.com/s/nxuy3fcq4ule4mq/map.db.sha256?dl=1", mapDBHash);
-                if (hash.Equals(remoteHash))
-                {
-                    // 代表裝置上擁有最新的資料庫，故不做事。
-                }
-                else
-                {
-                    GetDB("https://www.dropbox.com/s/ri4smv3f1lujcgg/map.db?dl=1", mapDB);
+            //if (File.Exists(mapDBHash))
+            //{
+            //    hash = LoadDBHash(mapDBHash);
+            //    remoteHash = GetDBHashAndLoad("https://www.dropbox.com/s/nxuy3fcq4ule4mq/map.db.sha256?dl=1", mapDBHash);
+            //    if (hash.Equals(remoteHash))
+            //    {
+            //        // 代表裝置上擁有最新的資料庫，故不做事。
+            //    }
+            //    else
+            //    {
+            //        GetDB("https://www.dropbox.com/s/ri4smv3f1lujcgg/map.db?dl=1", mapDB);
 
-                    hash = CheckDBHash(mapDB);
+            //        hash = CheckDBHash(mapDB);
 
-                    while(!hash.Equals(remoteHash)) GetDB("https://www.dropbox.com/s/ri4smv3f1lujcgg/map.db?dl=1", mapDB);
-                }
-                SaveHashFile(mapDBHash, hash);
+            //        while (!hash.Equals(remoteHash)) GetDB("https://www.dropbox.com/s/ri4smv3f1lujcgg/map.db?dl=1", mapDB);
+            //    }
+            //    SaveHashFile(mapDBHash, hash);
 
-                hash = LoadDBHash(drawableDBHash);
-                remoteHash = GetDBHashAndLoad("https://www.dropbox.com/s/1jpfmsbdv1irna5/drawable.db.sha256?dl=1", drawableDBHash);
-                if (hash.Equals(remoteHash))
-                {
-                    // 代表裝置上擁有最新的資料庫，故不做事。
-                }
-                else
-                {
-                    GetDB("https://www.dropbox.com/s/5u1yal1xwitipm9/drawable.db?dl=1", drawableDB);
+            //    hash = LoadDBHash(drawableDBHash);
+            //    remoteHash = GetDBHashAndLoad("https://www.dropbox.com/s/1jpfmsbdv1irna5/drawable.db.sha256?dl=1", drawableDBHash);
+            //    if (hash.Equals(remoteHash))
+            //    {
+            //        // 代表裝置上擁有最新的資料庫，故不做事。
+            //    }
+            //    else
+            //    {
+            //        GetDB("https://www.dropbox.com/s/5u1yal1xwitipm9/drawable.db?dl=1", drawableDB);
 
-                    hash = CheckDBHash(drawableDB);
+            //        hash = CheckDBHash(drawableDB);
 
-                    while(!hash.Equals(remoteHash)) GetDB("https://www.dropbox.com/s/5u1yal1xwitipm9/drawable.db?dl=1", drawableDB);
-                }
-                SaveHashFile(drawableDBHash, hash);
-            }
-            else
-            {
-                GetDB("https://www.dropbox.com/s/ri4smv3f1lujcgg/map.db?dl=1", mapDB);
-                hash = CheckDBHash(mapDB);
-                SaveHashFile(mapDBHash, hash);
+            //        while (!hash.Equals(remoteHash)) GetDB("https://www.dropbox.com/s/5u1yal1xwitipm9/drawable.db?dl=1", drawableDB);
+            //    }
+            //    SaveHashFile(drawableDBHash, hash);
+            //}
+            //else
+            //{
+            //    GetDB("https://www.dropbox.com/s/ri4smv3f1lujcgg/map.db?dl=1", mapDB);
+            //    hash = CheckDBHash(mapDB);
+            //    SaveHashFile(mapDBHash, hash);
 
-                GetDB("https://www.dropbox.com/s/5u1yal1xwitipm9/drawable.db?dl=1", drawableDB);
-                hash = CheckDBHash(drawableDB);
-                SaveHashFile(drawableDBHash, hash);
-            }
+            //    GetDB("https://www.dropbox.com/s/5u1yal1xwitipm9/drawable.db?dl=1", drawableDB);
+            //    hash = CheckDBHash(drawableDB);
+            //    SaveHashFile(drawableDBHash, hash);
+            //}
 
             #region 離線獲得資料庫
-
-            /*using (Stream input = Assets.Open("map.db"))
+            using (Stream sr = assets.Open("map.db"))
             {
                 using (MemoryStream output = new MemoryStream())
                 {
-                    input.CopyTo(output);
-                    File.WriteAllBytes(db, output.ToArray());
+                    sr.CopyTo(output);
+                    File.WriteAllBytes(mapDB, output.ToArray());
                 }
-            }*/
-
+            }
+            using (Stream sr = assets.Open("drawable.db"))
+            {
+                using (MemoryStream output = new MemoryStream())
+                {
+                    sr.CopyTo(output);
+                    File.WriteAllBytes(drawableDB, output.ToArray());
+                }
+            }
             #endregion 離線獲得資料庫
 
             #region 下載完檔案的事件

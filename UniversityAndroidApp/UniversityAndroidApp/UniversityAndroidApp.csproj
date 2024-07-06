@@ -6,16 +6,23 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationId>com.chunghwaminecraft.penghuspace</ApplicationId>
-    <ApplicationVersion>4</ApplicationVersion>
-    <ApplicationDisplayVersion>1.2.1</ApplicationDisplayVersion>
+    <ApplicationVersion>5</ApplicationVersion>
+    <ApplicationDisplayVersion>1.2.2</ApplicationDisplayVersion>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
     <AndroidKeyStore>False</AndroidKeyStore>
+    <DebugType>embedded</DebugType>
+    <EnableLLVM>False</EnableLLVM>
+    <FileAlignment>4096</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <AndroidKeyStore>False</AndroidKeyStore>
+    <DebugType>embedded</DebugType>
+    <EnableLLVM>False</EnableLLVM>
+    <FileAlignment>4096</FileAlignment>
+    <AndroidLinkTool>r8</AndroidLinkTool>
   </PropertyGroup>
   <ItemGroup>
     <AndroidJavaSource Remove="obj\**" />
@@ -26,6 +33,12 @@
     <None Remove="obj\**" />
     <ProguardConfiguration Remove="obj\**" />
     <TransformFile Remove="obj\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Assets\drawable.db" />
+    <None Remove="Assets\map.db" />
+    <None Remove="Resources\drawable\drawable.db" />
+    <None Remove="Resources\drawable\map.db" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="DocumentFormat.OpenXml" Version="3.0.2" />

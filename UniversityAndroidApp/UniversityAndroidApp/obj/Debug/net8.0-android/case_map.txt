@@ -39,9 +39,6 @@ mipmap\appicon;mipmap\appicon
 mipmap\appicon_background;mipmap\appicon_background
 mipmap\appicon_foreground;mipmap\appicon_foreground
 mipmap\appicon_round;mipmap\appicon_round
-mipmap\ic_launcher;mipmap\ic_launcher
-mipmap\ic_launcher_adaptive_back;mipmap\ic_launcher_adaptive_back
-mipmap\ic_launcher_adaptive_fore;mipmap\ic_launcher_adaptive_fore
 values\attrs;values\attrs
 values\colors;values\colors
 values\ic_launcher_background;values\ic_launcher_background

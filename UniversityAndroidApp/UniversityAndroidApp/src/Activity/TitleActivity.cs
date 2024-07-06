@@ -17,6 +17,7 @@ using Android.OS;
 using System.Net.Sockets;
 using Resource = UniversityAndroidApp.Resource;
 using Xamarin.Essentials;
+using Android.Content.Res;
 #endregion using
 
 namespace PenghuSpace.Activity
@@ -122,8 +123,8 @@ namespace PenghuSpace.Activity
             Init();
 
             ExtensionMethods.width = _width;
-
-            BaseActivityCore core = new BaseActivityCore();
+            AssetManager assets = this.Assets;
+            BaseActivityCore core = new BaseActivityCore(assets);
             activityCore = core;
         }
 

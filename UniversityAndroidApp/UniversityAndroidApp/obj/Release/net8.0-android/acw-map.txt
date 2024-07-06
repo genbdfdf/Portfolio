@@ -1096,6 +1096,3 @@ penghuspace.activity.StoryBase;crc64f8f443c9db4835c0.StoryBase
 PenghuSpace.Activity.TitleActivity, UniversityAndroidApp;crc64f8f443c9db4835c0.TitleActivity
 PenghuSpace.Activity.TitleActivity;crc64f8f443c9db4835c0.TitleActivity
 penghuspace.activity.TitleActivity;crc64f8f443c9db4835c0.TitleActivity
-AndroidApp1.MainActivity, UniversityAndroidApp;crc6495539739c6bb5e26.MainActivity
-AndroidApp1.MainActivity;crc6495539739c6bb5e26.MainActivity
-androidapp1.MainActivity;crc6495539739c6bb5e26.MainActivity
