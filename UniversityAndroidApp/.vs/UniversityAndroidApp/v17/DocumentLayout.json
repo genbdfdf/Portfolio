@@ -41,8 +41,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{228e1580-0ef9-329a-bf07-81ebc3dcbf7e}"
@@ -106,7 +110,7 @@
               "RelativeDocumentMoniker": "UniversityAndroidApp\\UniversityAndroidApp.csproj",
               "ToolTip": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
               "RelativeToolTip": "UniversityAndroidApp\\UniversityAndroidApp.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-07-06T16:13:07.06Z",
               "EditorCaption": ""

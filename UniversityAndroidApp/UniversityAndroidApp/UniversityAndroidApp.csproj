@@ -6,8 +6,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationId>com.chunghwaminecraft.penghuspace</ApplicationId>
-    <ApplicationVersion>6</ApplicationVersion>
-    <ApplicationDisplayVersion>1.2.3</ApplicationDisplayVersion>
+    <ApplicationVersion>7</ApplicationVersion>
+    <ApplicationDisplayVersion>1.2.4</ApplicationDisplayVersion>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
@@ -30,7 +30,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <AndroidKeyStore>False</AndroidKeyStore>
     <DebugType>portable</DebugType>
-    <EnableLLVM>False</EnableLLVM>
+    <EnableLLVM>True</EnableLLVM>
     <FileAlignment>512</FileAlignment>
     <PublishTrimmed>True</PublishTrimmed>
     <RunAOTCompilation>True</RunAOTCompilation>
