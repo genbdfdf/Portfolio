@@ -5,8 +5,8 @@
     Changes to this file may cause incorrect behavior and will be lost if
     the contents are regenerated.
 -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.chunghwaminecraft.penghuspace" android:versionCode="4" android:versionName="1.2.1">
-  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="34" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.chunghwaminecraft.penghuspace" android:versionCode="5" android:versionName="1.2.2">
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="34" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
   <queries>
@@ -16,7 +16,7 @@
   </queries>
   <permission android:name="com.chunghwaminecraft.penghuspace.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.chunghwaminecraft.penghuspace.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="@string/app_name" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
+  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="@string/app_name" android:supportsRtl="true">
     <activity android:name="crc64f8f443c9db4835c0.Base" android:label="@string/app_name" android:screenOrientation="landscape" android:theme="@style/AppTheme" />
     <activity android:name="crc64f8f443c9db4835c0.StoryActivity" android:label="@string/app_name" android:screenOrientation="landscape" android:theme="@style/AppTheme" />
     <activity android:name="crc64f8f443c9db4835c0.StoryBase" android:label="@string/app_name" android:screenOrientation="landscape" android:theme="@style/AppTheme" />

@@ -784,6 +784,9 @@ androidx.core.app.OnNewIntentProvider;androidx.core.app.OnNewIntentProvider
 AndroidX.Core.App.IOnPictureInPictureModeChangedProvider, Xamarin.AndroidX.Core;androidx.core.app.OnPictureInPictureModeChangedProvider
 AndroidX.Core.App.IOnPictureInPictureModeChangedProvider;androidx.core.app.OnPictureInPictureModeChangedProvider
 androidx.core.app.OnPictureInPictureModeChangedProvider;androidx.core.app.OnPictureInPictureModeChangedProvider
+AndroidX.Core.App.IOnUserLeaveHintProvider, Xamarin.AndroidX.Core;androidx.core.app.OnUserLeaveHintProvider
+AndroidX.Core.App.IOnUserLeaveHintProvider;androidx.core.app.OnUserLeaveHintProvider
+androidx.core.app.OnUserLeaveHintProvider;androidx.core.app.OnUserLeaveHintProvider
 AndroidX.Core.App.NotificationCompat+Action+IExtender, Xamarin.AndroidX.Core;androidx.core.app.NotificationCompat$Action$Extender
 AndroidX.Core.App.NotificationCompat.Action.IExtender;androidx.core.app.NotificationCompat$Action$Extender
 androidx.core.app.NotificationCompat$Action$Extender;androidx.core.app.NotificationCompat$Action$Extender
@@ -898,6 +901,9 @@ androidx.core.view.HapticFeedbackConstantsCompat$HapticFeedbackFlags;androidx.co
 AndroidX.Core.View.HapticFeedbackConstantsCompat+IHapticFeedbackType, Xamarin.AndroidX.Core;androidx.core.view.HapticFeedbackConstantsCompat$HapticFeedbackType
 AndroidX.Core.View.HapticFeedbackConstantsCompat.IHapticFeedbackType;androidx.core.view.HapticFeedbackConstantsCompat$HapticFeedbackType
 androidx.core.view.HapticFeedbackConstantsCompat$HapticFeedbackType;androidx.core.view.HapticFeedbackConstantsCompat$HapticFeedbackType
+AndroidX.Core.View.IDifferentialMotionFlingTarget, Xamarin.AndroidX.Core;androidx.core.view.DifferentialMotionFlingTarget
+AndroidX.Core.View.IDifferentialMotionFlingTarget;androidx.core.view.DifferentialMotionFlingTarget
+androidx.core.view.DifferentialMotionFlingTarget;androidx.core.view.DifferentialMotionFlingTarget
 AndroidX.Core.View.ILayoutInflaterFactory, Xamarin.AndroidX.Core;androidx.core.view.LayoutInflaterFactory
 AndroidX.Core.View.ILayoutInflaterFactory;androidx.core.view.LayoutInflaterFactory
 androidx.core.view.LayoutInflaterFactory;androidx.core.view.LayoutInflaterFactory

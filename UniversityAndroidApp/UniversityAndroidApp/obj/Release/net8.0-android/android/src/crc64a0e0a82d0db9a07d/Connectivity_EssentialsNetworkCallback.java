@@ -30,6 +30,15 @@ public class Connectivity_EssentialsNetworkCallback
 	}
 
 
+	public Connectivity_EssentialsNetworkCallback (int p0)
+	{
+		super (p0);
+		if (getClass () == Connectivity_EssentialsNetworkCallback.class) {
+			mono.android.TypeManager.Activate ("Xamarin.Essentials.Connectivity+EssentialsNetworkCallback, Xamarin.Essentials", "System.Int32, System.Private.CoreLib", this, new java.lang.Object[] { p0 });
+		}
+	}
+
+
 	public void onAvailable (android.net.Network p0)
 	{
 		n_onAvailable (p0);

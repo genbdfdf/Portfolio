@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj": {
-      "version": "1.2.2",
+      "version": "1.2.3",
       "restore": {
         "projectUniqueName": "D:\\Portfolio\\UniversityAndroidApp\\UniversityAndroidApp\\UniversityAndroidApp.csproj",
         "projectName": "UniversityAndroidApp",
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0-android"
+          "net8.0-android34.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -31,7 +31,7 @@
         },
         "frameworks": {
           "net8.0-android34.0": {
-            "targetAlias": "net8.0-android",
+            "targetAlias": "net8.0-android34.0",
             "projectReferences": {}
           }
         },
@@ -48,7 +48,7 @@
       },
       "frameworks": {
         "net8.0-android34.0": {
-          "targetAlias": "net8.0-android",
+          "targetAlias": "net8.0-android34.0",
           "dependencies": {
             "DocumentFormat.OpenXml": {
               "target": "Package",
@@ -62,7 +62,7 @@
             },
             "Xamarin.AndroidX.Browser": {
               "target": "Package",
-              "version": "[1.8.0, )"
+              "version": "[1.8.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -74,7 +74,7 @@
             },
             "Xamarin.Google.Guava.ListenableFuture": {
               "target": "Package",
-              "version": "[1.0.0.18, )"
+              "version": "[1.0.0.21, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",

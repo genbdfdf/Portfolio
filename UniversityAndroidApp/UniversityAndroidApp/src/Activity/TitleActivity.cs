@@ -371,7 +371,7 @@ namespace PenghuSpace.Activity
                         }
                     });
                     Thread.Sleep(100);
-                    activityCore.WaitInitFinish();
+                    //activityCore.WaitInitFinish();
                     StartActivity(_intent);
                     OverridePendingTransition(Resource.Animation.abc_fade_in, Resource.Animation.abc_fade_out);
                 });

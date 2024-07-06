@@ -14,12 +14,12 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniversityAndroidApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.2.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.2+b59ccc5aa66db616f0ca758d59875eaf945cdb3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.2+3789a5d9c4fe470d97f344e884d7175458943b3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniversityAndroidApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniversityAndroidApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.2.2.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Android34.0")]
-[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Android21.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Android26.0")]
 
 // 由 MSBuild WriteCodeFragment 類別產生。
 

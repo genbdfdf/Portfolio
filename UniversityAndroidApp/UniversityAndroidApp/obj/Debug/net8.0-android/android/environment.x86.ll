@@ -94,7 +94,7 @@ target triple = "i686-unknown-linux-android21"
 @app_system_properties = dso_local local_unnamed_addr constant [0 x ptr] zeroinitializer, align 4
 
 @application_config = dso_local local_unnamed_addr constant %struct.ApplicationConfig {
-	i8 0, ; bool uses_mono_llvm
+	i8 1, ; bool uses_mono_llvm
 	i8 1, ; bool uses_mono_aot
 	i8 0, ; bool aot_lazy_load
 	i8 0, ; bool uses_assembly_preload
@@ -2707,7 +2707,7 @@ target triple = "i686-unknown-linux-android21"
 @.env.4 = private unnamed_addr constant [15 x i8] c"MONO_LOG_LEVEL\00", align 1
 @.env.5 = private unnamed_addr constant [5 x i8] c"info\00", align 1
 @.env.6 = private unnamed_addr constant [17 x i8] c"XAMARIN_BUILD_ID\00", align 1
-@.env.7 = private unnamed_addr constant [37 x i8] c"c888516f-3e90-477a-9d17-c602cedb14e2\00", align 1
+@.env.7 = private unnamed_addr constant [37 x i8] c"e3ea9145-ce46-4a7c-837d-bdfd15d200c8\00", align 1
 @.env.8 = private unnamed_addr constant [28 x i8] c"XA_HTTP_CLIENT_HANDLER_TYPE\00", align 1
 @.env.9 = private unnamed_addr constant [42 x i8] c"Xamarin.Android.Net.AndroidMessageHandler\00", align 1
 @.env.10 = private unnamed_addr constant [29 x i8] c"__XA_PACKAGE_NAMING_POLICY__\00", align 1

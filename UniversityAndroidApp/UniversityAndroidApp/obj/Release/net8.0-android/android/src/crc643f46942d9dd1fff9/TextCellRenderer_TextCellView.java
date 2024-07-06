@@ -15,6 +15,15 @@ public class TextCellRenderer_TextCellView
 	}
 
 
+	public TextCellRenderer_TextCellView (android.content.Context p0, android.util.AttributeSet p1, int p2, int p3)
+	{
+		super (p0, p1, p2, p3);
+		if (getClass () == TextCellRenderer_TextCellView.class) {
+			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.TextCellRenderer+TextCellView, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, System.Private.CoreLib:System.Int32, System.Private.CoreLib", this, new java.lang.Object[] { p0, p1, p2, p3 });
+		}
+	}
+
+
 	public TextCellRenderer_TextCellView (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
 		super (p0, p1, p2);
