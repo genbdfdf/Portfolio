@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("地圖編輯器")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40dd2dbf178ee99f7ce55bfbfa829e3505f496b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a238f923de2b6c798c7cf04e6cccb116a8975ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("地圖編輯器")]
 [assembly: System.Reflection.AssemblyTitleAttribute("地圖編輯器")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,11 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniversityAndroidApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2+40dd2dbf178ee99f7ce55bfbfa829e3505f496b6")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.2.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.2.1+5a238f923de2b6c798c7cf04e6cccb116a8975ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniversityAndroidApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniversityAndroidApp")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.2.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.2.1.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Android34.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Android21.0")]
 
